@@ -1,8 +1,8 @@
 import React from "react";
-import "./UserList.css";
+import "./UsersList.css";
 import Card from "../UI/Card";
 
-const UserList = (props) => {
+const UsersList = (props) => {
   return (
     <Card className="users">
       <ul>
@@ -16,4 +16,4 @@ const UserList = (props) => {
   );
 };
 
-export default UserList;
+export default UsersList;
